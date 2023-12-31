@@ -103,7 +103,7 @@ public class SwerveDrive
   /**
    * Whether to correct heading when driving translationally. Set to true to enable.
    *///TODO:
-  public        boolean        headingCorrection                               = true;
+  public        boolean        headingCorrection                               = false;
   /**
    * Swerve IMU device for sensing the heading of the robot.
    */
