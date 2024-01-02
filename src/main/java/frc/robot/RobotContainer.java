@@ -63,7 +63,7 @@ public class RobotContainer
     () -> driverControls.getRadDriveWantedTranslation().getY(),
     () -> driverControls.getWantedRadDriveRobotAngle(), () -> true);
     
-    drivebase.setDefaultCommand(closedAbsoluteDrive);
+    drivebase.setDefaultCommand(closedFieldRel);
   }
 
   /**
